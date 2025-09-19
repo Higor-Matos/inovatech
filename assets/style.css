@@ -119,36 +119,19 @@ body {
 
 .hero {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 60vh;
+  min-height: 70vh;
   position: relative;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
-.hero .carousel {
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
+.min-vh-60 {
+  min-height: 60vh;
 }
 
-.carousel-item img {
-  height: 60vh;
+.hero img {
   width: 100%;
+  height: auto;
   object-fit: cover;
-  filter: brightness(0.7);
-}
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  border-radius: 1rem;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.carousel-caption h1,
-.carousel-caption h2 {
-  font-weight: 700;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card {
